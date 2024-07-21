@@ -1,29 +1,19 @@
-
-
 *{
     list-style-type: none;
     margin-left: 0;
     margin-right: 0;
     padding: 0;
 }
-header{
-    
-    display: flex;
+header .container-header{
     background: white;
     height: 80px;
-    justify-content: space-between;
-    align-items: center;
-}
-header .container-header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
     max-width: 1440px;
-   margin: 0 ;
+    margin: 0 ;
     padding: 0 ; 
 }
-
 header #button1{
     width: 236px;
     height: 80px;
@@ -31,28 +21,22 @@ header #button1{
     background: #e0b9b4;
     border: 0px;
     color: #313332;
-   }
+     }
 header #menu-principal{
-    display: flex;
-
-}
+        display: flex;
+    }
 header #menu-principal li{
-    margin: 50px;
+    margin: 40px;
     color: #313332 !important;
 }
 li.menu-item a {
     color: #313332 !important;} 
-header #menu-principal-container{
-    display: flex;
-    justify-content: right;
-}
 header nav{
     display: flex;
     width: 931px;
     justify-content: right;
 }
 
-    
 #button-2{
     width: 198px;
     height: 55px;
@@ -66,8 +50,7 @@ header nav{
     margin-top: 69px;
 }
 #line-separation{
-    
-    border: 1px 0 0 0 solid #fff;
+     border: 1px 0 0 0 solid #fff;
 }
 #Formulaire-nouscontacte{
     margin-top: 890px;
@@ -81,14 +64,11 @@ header nav{
     width:114px;
     height: 19px;
     font-size: 14px;
-
 }
 #menu-item-83:hover{
     width: 142px;
     height: 19px;
      padding: 1px 14px 2px 12px;
-
-
 }footer{
     margin-top: -18px;
 }
