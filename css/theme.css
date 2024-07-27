@@ -94,17 +94,7 @@ header nav{
 #commander{
     margin-top: 69px;
 }
-#line-separation{
-    
-        border-top: 1px solid #fff;
-    
-}
-#Formulaire-nouscontacte{
-    margin-top: 890px;
-}#fleur {
-    
-    transform: rotate(-70deg);
-}
+
 #menu-item-83{
     width:114px;
     height: 19px;
@@ -114,8 +104,4 @@ header nav{
     width: 142px;
     height: 19px;
      padding: 1px 14px 2px 12px;
-}
-#compteur{
-    width: 39 !important;
-    height: 56 !important;
 }
