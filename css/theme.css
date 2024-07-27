@@ -3,6 +3,13 @@
     margin-left: 0;
     margin-right: 0;
     padding: 0;
+    
+}
+body{
+    overflow-x: hidden !important;
+    max-width: 1440px !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
 }
 header .container-header{
     background: white;
@@ -36,7 +43,45 @@ header nav{
     width: 931px;
     justify-content: right;
 }
-
+@media (max-width: 767.98px) {
+    header .container-header{
+        background: white;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 760px;
+        margin: 0 ;
+        padding: 0 ; 
+    }
+    header #button1{
+        font-size: 14px;
+        width: 100px;
+        height: 80px;
+        margin-right: 0;
+        background: #e0b9b4;
+        border: 0px;
+        color: #313332;
+         }
+    header #menu-principal{
+            display: flex;
+        }
+    header #menu-principal li{
+        margin: 5px;
+        color: #313332 !important;
+    }
+    li.menu-item a {
+        color: #313332 !important;} 
+    header nav{
+        display: flex;
+        width: 300px;
+        justify-content: right;
+    }
+    .logos{
+        width:100px;
+        height: auto;
+    }
+}
 #button-2{
     width: 198px;
     height: 55px;
@@ -50,14 +95,14 @@ header nav{
     margin-top: 69px;
 }
 #line-separation{
-     border: 1px 0 0 0 solid #fff;
+    
+        border-top: 1px solid #fff;
+    
 }
 #Formulaire-nouscontacte{
     margin-top: 890px;
 }#fleur {
-    position: absolute;
-    margin-top:200px;
-    margin-left:400px;
+    
     transform: rotate(-70deg);
 }
 #menu-item-83{
@@ -69,6 +114,8 @@ header nav{
     width: 142px;
     height: 19px;
      padding: 1px 14px 2px 12px;
-}footer{
-    margin-top: -18px;
+}
+#compteur{
+    width: 39 !important;
+    height: 56 !important;
 }

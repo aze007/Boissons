@@ -12,7 +12,7 @@ if (!defined('ABSPATH')) {
 
 // Vérifiez que le fichier est appelé dans un contexte WordPress
 if (!defined('ABSPATH')) {
-    exit; // Exit if accessed directly
+    exit; 
 }
 
 // Fonction pour ajouter le lien "Admin" dans le menu
