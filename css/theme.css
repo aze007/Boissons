@@ -29,6 +29,11 @@ header #button1{
     border: 0px;
     color: #313332;
      }
+header #button1:hover
+{
+     background: #98483d;
+     color: #010101;
+ }
 header #menu-principal{
         display: flex;
     }
@@ -36,14 +41,31 @@ header #menu-principal li{
     margin: 40px;
     color: #313332 !important;
 }
-li.menu-item a {
+.menu-item a {
     color: #313332 !important;} 
 header nav{
     display: flex;
     width: 931px;
     justify-content: right;
 }
-@media (max-width: 767.98px) {
+
+#button-envoie{
+    width: 198px;
+    height: 55px;
+    background: #e0b9b4;
+}
+#menu-item-83{
+    width:114px;
+    height: 19px;
+    font-size: 14px;
+}
+#menu-item-83:hover{
+    width: 142px;
+    height: 19px;
+     padding: 1px 14px 2px 12px;
+}
+/*Pour faire un menu responsive */
+@media (max-width: 768px) {
     header .container-header{
         background: white;
         height: 60px;
@@ -82,26 +104,5 @@ header nav{
         height: auto;
     }
 }
-#button-2{
-    width: 198px;
-    height: 55px;
-}
-#button-envoie{
-    width: 198px;
-    height: 55px;
-    background: #e0b9b4;
-}
-#commander{
-    margin-top: 69px;
-}
 
-#menu-item-83{
-    width:114px;
-    height: 19px;
-    font-size: 14px;
-}
-#menu-item-83:hover{
-    width: 142px;
-    height: 19px;
-     padding: 1px 14px 2px 12px;
-}
+/*************************************** */

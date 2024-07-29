@@ -10,11 +10,6 @@ if (!defined('ABSPATH')) {
     exit; // 
 }
 
-// Vérifiez que le fichier est appelé dans un contexte WordPress
-if (!defined('ABSPATH')) {
-    exit; 
-}
-
 // Fonction pour ajouter le lien "Admin" dans le menu
 function ajouter_lien_admin_dans_menu($items, $args) {
     // Vérifiez si l'utilisateur est connecté
