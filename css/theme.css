@@ -3,8 +3,7 @@
     margin-left: 0;
     margin-right: 0;
     padding: 0;
-    
-}
+    }
 body{
     overflow-x: hidden !important;
     max-width: 1440px !important;
@@ -49,11 +48,6 @@ header nav{
     justify-content: right;
 }
 
-#button-envoie{
-    width: 198px;
-    height: 55px;
-    background: #e0b9b4;
-}
 #menu-item-83{
     width:114px;
     height: 19px;
@@ -64,6 +58,24 @@ header nav{
     height: 19px;
      padding: 1px 14px 2px 12px;
 }
+#button-envoie{
+    width: 198px;
+    height: 55px;
+    background: #e0b9b4;
+}
+.legal {
+    margin-bottom: 100px;
+    align-items: center;
+    text-align: center;
+    z-index: 10;
+    margin-top: -20px;
+    
+}.legal a{
+    color: #010101;
+    font-size: 24px;
+    font-family: 'Syne', sans-serif;
+}
+
 /*Pour faire un menu responsive */
 @media (max-width: 768px) {
     header .container-header{

@@ -11,18 +11,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; 
 }
 
-if ( ! function_exists( 'elementor_theme_do_location' )  )  {
-	if ( hello_elementor_display_header_footer() ) {
-		if ( did_action( 'elementor/loaded' ) && hello_header_footer_experiment_active() ) {
-			get_template_part( 'template-parts/dynamic-footer' );
-		} else {
-			get_template_part( 'template-parts/footer' );
-		}
-	}
-}
 ?>
+<div class="legal">
+<a href="http://localhost/boissons/" target="_blank">Mentions légales</a>
+</div>
 
 <?php wp_footer(); ?>
-
 </body>
 </html>
